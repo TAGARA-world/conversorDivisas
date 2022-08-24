@@ -1,0 +1,65 @@
+package ConversorDivisas;
+
+import javax.swing.JOptionPane;
+
+public class ConvertirDivisas {
+	public void ConvertirPesosArgentinosADolares(double valor) {
+		double monedaDolar = valor / 137.22;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes " +monedaDolar+" U$D");
+	}
+	
+	public void ConvertirPesosArgentinosEuros(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes  " +monedaDolar+" Euros");
+	}
+	
+	public void ConvertirPesosArgentinosLibra(double valor) {
+		double monedaDolar = valor / 161.62;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes  " +monedaDolar+" Libras");
+	}
+	
+	public void ConvertirPesosArgentinosYen(double valor) {
+		double monedaDolar = valor / 1.00;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes  " +monedaDolar+"Yen");
+	}
+	
+	public void ConvertirPesosArgentinosWonCoreano(double valor) {
+		double monedaDolar = valor / 0.10;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Tienes  " +monedaDolar+"Won Sur Coreano");
+	}
+	
+	public void ConvertirDolaresAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Pesos Arg " +monedaDolar);
+	}
+	
+	public void ConvertirEurosAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Pesos Arg " +monedaDolar);
+	}
+	
+	public void ConvertirLibraAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Pesos Arg " +monedaDolar);
+	}
+	
+	public void ConvertirYenAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Pesos Arg " +monedaDolar);
+	}
+	
+	public void ConvertirWonCoreanoAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 100d)/100;
+		JOptionPane.showMessageDialog(null, "Pesos Arg " +monedaDolar);
+	}
+}

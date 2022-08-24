@@ -15,14 +15,6 @@ public class Principal {
 				String input = JOptionPane.showInputDialog(null, "Ingrese un valor");
 				double valorRecibido = Double.parseDouble(input);
 				conversion.ConvertirDivisas(valorRecibido);
-				
-				int respuesta = JOptionPane.showConfirmDialog(null, "¿Desea realizar otra operación?");
-				if (JOptionPane.OK_OPTION == respuesta) {
-					System.out.println("Selecciona opción Afirmativa");
-				}else {
-					JOptionPane.showMessageDialog(null, "Programa finalizado");
-				}
-				break;
 			}
 		}
 	}

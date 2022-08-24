@@ -1,0 +1,17 @@
+package Principal;
+
+import javax.swing.*;
+
+public class Principal {
+	public static void main(String[] args) {
+		while(true) {
+			String opciones = JOptionPane.showInputDialog(null, "Seleccione una opción de conversión", "Menú", JOptionPane.PLAIN_MESSAGE, null, 
+					new Object [] {"Conversor de Divisas", "Conversor de Temperaturas"}, "Elegir").toString();
+			switch(opciones) {
+			case "Conversor de Divisas":
+				System.out.println("Conversor de Divisas");
+				
+			}
+		}
+	}
+}

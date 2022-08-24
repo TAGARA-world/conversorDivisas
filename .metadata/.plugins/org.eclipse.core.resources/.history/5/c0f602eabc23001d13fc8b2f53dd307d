@@ -21,8 +21,8 @@ public class Principal {
 					System.out.println("Selecciona opción Afirmativa");
 				}else {
 					JOptionPane.showMessageDialog(null, "Programa finalizado");
+					break;
 				}
-				break;
 			}
 		}
 	}

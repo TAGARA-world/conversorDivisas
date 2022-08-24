@@ -1,0 +1,65 @@
+package ConversorDivisas;
+
+import javax.swing.JOptionPane;
+
+public class ConvertirDivisas {
+	public void ConvertirPesosArgentinosADolares(double valor) {
+		double monedaDolar = valor / 137.22;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirPesosArgentinosEuros(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirPesosArgentinosLibra(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirPesosArgentinosYen(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirPesosArgentinosWonCoreano(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirDolaresAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirEurosAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirLibraAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirYenAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+	
+	public void ConvertirWonCoreanoAPesosArgentinos(double valor) {
+		double monedaDolar = valor / 136.26;//tipo de cambio Banco Nación 24/082022
+		monedaDolar = (double) Math.round(monedaDolar * 10000d)/10000;
+		JOptionPane.showMessageDialog(null, "Tienes U$D " +monedaDolar);
+	}
+}
