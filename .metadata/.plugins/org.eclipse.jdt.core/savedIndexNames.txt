@@ -1,3 +1,4 @@
 INDEX VERSION 1.131+F:\ONE-Alura-Challenge\reto-5-conversor-de-monedas\.metadata\.plugins\org.eclipse.jdt.core
+2275566621.index
 1865797976.index
 1727334063.index
